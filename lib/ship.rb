@@ -9,11 +9,11 @@ class Ship < ActiveRecord::Base
   def grunt_names
     grunt_arr = []
     self.grunts.each do |grunt|
-      grunt_arr << grunt.name
+      grunt_arr << "Rank: #{grunt.rank}, Name: #{grunt.name}"
     end
     grunt_arr
   end
-  
+
 private
 
   def capitalize_name
