@@ -2,10 +2,10 @@ class Grunt < ActiveRecord::Base
 
   before_save :capitalize_name
 
-  belongs_to :ships
+  belongs_to :ship
 
   validates :name, presence: true
-  validates :ships_id, presence: true
+  validates :ship_id, presence: true
 
 private
 

@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Grunt do
   it "validates presence of name" do
-    grunt = Grunt.create({:name => '', :ships_id =>1})
+    grunt = Grunt.create({:name => '', :ship_id =>1})
     expect(Grunt.all).to eq []
   end
 
@@ -12,7 +12,7 @@ describe Grunt do
   end
 
   it 'capitalizes the name' do
-    grunt = Grunt.create(:name => "piCaRd", :ships_id =>1)
+    grunt = Grunt.create(:name => "piCaRd", :ship_id =>1)
     grunt.name.should eq "Picard"
   end
 end
