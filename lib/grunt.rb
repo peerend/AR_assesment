@@ -1,7 +1,8 @@
 class Grunt < ActiveRecord::Base
 
-  validates :name, presence: true
-
   belongs_to :ships
+
+  validates :name, presence: true
+  validates :ships_id, presence: true
 
 end
