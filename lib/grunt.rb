@@ -1,9 +1,12 @@
 class Grunt < ActiveRecord::Base
 
+  has_many :projects
+  belongs_to :ship
+
   before_create :capitalize_name
   before_create :capitalize_rank
 
-  belongs_to :ship
+
 
   validates :name, presence: true
   validates :rank, presence: true

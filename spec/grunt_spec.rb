@@ -4,6 +4,7 @@ describe Grunt do
 
   it { should belong_to :ship }
 
+
   it "validates presence of name" do
     grunt = Grunt.create({:rank => 'captain', :name => '', :ship_id =>1})
     expect(Grunt.all).to eq []
