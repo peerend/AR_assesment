@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe Ship do
+  it { should have_many :grunts }
+
   it "validates the presence of name" do
     ship = Ship.create({:name => ''})
     expect(Ship.all).to eq []

@@ -1,7 +1,7 @@
 require 'active_record'
 require 'rspec'
 require 'pry'
-
+require 'shoulda-matchers'
 require 'ship'
 require 'grunt'
 
