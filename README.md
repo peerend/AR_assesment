@@ -4,4 +4,5 @@ This is a tool for star fleet administrators to create starfleet grunts, and shi
 
 Author: Dylan Peerenboom
 
-![star_tracker](https://cloud.githubusercontent.com/assets/8154366/3939882/c1a0c008-24cf-11e4-90ad-72f1b82b0dab.png)
+![star_tracker_project](https://cloud.githubusercontent.com/assets/8154366/3940067/70f383ca-24d4-11e4-90a6-36458c6add95.png)
+
